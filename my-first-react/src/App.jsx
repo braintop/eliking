@@ -1,3 +1,4 @@
+import Counter from "./Counter"
 function App() {
 
   //phae 1 declrae vars & consts 
@@ -40,6 +41,7 @@ function App() {
   //phase 3 return JSX
   return (
     <>
+      <Counter />
       <h1>Hello World</h1>
       <p>My name is {firstName}</p>
       <button onClick={sayHello}>Click me</button>
