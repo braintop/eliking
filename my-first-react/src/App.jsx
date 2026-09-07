@@ -42,6 +42,11 @@ function App() {
   return (
     <>
       <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+
       <h1>Hello World</h1>
       <p>My name is {firstName}</p>
       <button onClick={sayHello}>Click me</button>
