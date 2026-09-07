@@ -41,11 +41,11 @@ function App() {
   //phase 3 return JSX
   return (
     <>
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
+      <Counter startValue={10} />
+      <Counter startValue={20} />
+      <Counter startValue={30} />
+      <Counter startValue={40} />
+      <Counter startValue={50} />
 
       <h1>Hello World</h1>
       <p>My name is {firstName}</p>
